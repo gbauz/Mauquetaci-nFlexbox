@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-<header style="background-color: red;">
-    <h1>Mi primera página en HTML </h1> <!--H1 ES PARA UN TITULO GRANDE--->
+<header class="cabecera">
+    <h1 variable="cabecera____titulo">Mi primera página en HTML </h1> <!--H1 ES PARA UN TITULO GRANDE--->
     <h2>Mi primera página en HTML</h2>  <!--h2 es un titulo un poco más -->
     <h6>Mi primera página en HTML</h6>  <!--H6 ES PARA UN TITULO PEQUEÑO-->
-    <h1>Ejemplo de lista desordenada</h1>
+    <h1 style="color:rgb(228, 214, 22)">Ejemplo de lista desordenada</h1>
     <nav>
         <ul>
             <li>una libra tomate</li>
@@ -18,23 +22,23 @@
             </ul>
     </nav>   
     
-    <h1>Ejemplo de lista ordenada</h1>
+    <h1 class="tituloc" id="tituloi">Ejemplo de lista ordenada</h1>
     <ol>
     <li>Me despierto</li>
     <li>Me ducho</li>
     </ol>
 </header>
-<article style="background-color: aqua;">
-<section>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugiat earum temporibus corporis velit, odio unde veritatis, ex recusandae qui asperiores accusantium ratione quidem adipisci sed consectetur quam libero suscipit.
+<article>
+<section class="noticias">
+    <p class="noticias___parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae fugiat earum temporibus corporis velit, odio unde veritatis, ex recusandae qui asperiores accusantium ratione quidem adipisci sed consectetur quam libero suscipit.
         Beatae dignissimos possimus <mark>consectetur adipisicing elit. Repudiandae fugiat </mark>! Veniam sapiente aliquam illo! Nihil, voluptatum ad similique harum voluptates, in delectus, ducimus quia minus perferendis laborum officiis est fugiat itaque architecto exercitationem quos optio molestias.</p>
         <br>
-        <p>Lorem ipsum dolor sit <strong>amet</strong>, consectetur adipisicing elit. Fugit dolor delectus velit voluptates et hic quisquam, minima expedita aspernatur voluptatum dignissimos eligendi, animi nostrum mollitia corporis consectetur possimus vel suscipit!
+        <p class="noticias___parrafo2">Lorem ipsum dolor sit <strong>amet</strong>, consectetur adipisicing elit. Fugit dolor delectus velit voluptates et hic quisquam, minima expedita aspernatur voluptatum dignissimos eligendi, animi nostrum mollitia corporis consectetur possimus vel suscipit!
         Porro aut sit quibusdam praesentium deserunt. Reprehenderit dolores autem cumque possimus officiis dolor neque amet, quaerat veniam non eius facere sapiente voluptatum cupiditate? Quis soluta distinctio harum dicta quibusdam debitis?
         Commodi velit ab eum, excepturi nisi quibusdam eligendi eius blanditiis dolor at nostrum, quam, sequi nam dolores in voluptate iste dicta autem vitae. Aspernatur, quisquam atque. Rerum, sequi similique? Sunt.
         Dolor accusantium amet nostrum illum commodi perferendis excepturi neque aperiam, distinctio ex? Ratione autem inventore, eveniet quidem ipsa porro illo tenetur. Libero veritatis consequatur corrupti! Sunt libero ab porro quasi.</p>
-        <img src="imagenes/paisaje.jpg" width="250px" height="50px" alt="imagen no disponible" title="paisaje frondoso">
-    <div style="background-color: blueviolet;">
+        <img src="imagenes/paisaje.jpg" width="350px" height="250px" alt="imagen no disponible" title="paisaje frondoso">
+    <div>
      <p>Soy el elemento del div</p>   
     </div>
     </section>    
@@ -48,7 +52,7 @@
       </form>
     </section>
 </article>
-<footer style="background-color: green;">
+<footer>
  <h1>Todos los derechos reservados</h1>   
 </footer>
 </body>

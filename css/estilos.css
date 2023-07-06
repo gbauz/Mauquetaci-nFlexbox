@@ -1,0 +1,52 @@
+/* UNIDADES EN CSS
+px,em,%
+em=16px
+4em=64px
+*/
+/*SELECTORES EN CSS
+SELECTOR UNIVERSAL *
+SELECTOR ID        #
+SELECTOR DE CLASE  .
+SELECTOR DE VARIABLE
+SELECTOR DE PARTE
+*/
+/*
+*{
+    background-color: red;
+}
+ METODOLOGIA BEM 
+ BLOCK BLOQUE
+ ELEMENT ELEMENTO
+ MODIFIER MODIFICADOR
+*/
+[variable="titulosecundario"]{
+    color:blue;
+}
+#parrafo1{
+    color:green;
+}
+.titulo1{
+    color:red;
+}
+p{
+    color:orange;
+    font-size:20px;
+    text-align: center;
+    font-weight: bold;
+}
+h1{
+    text-transform:lowercase;
+    font-family: 'Open Sans', sans-serif;    
+}
+header h2{
+    color:blueviolet;
+}
+.tituloc{
+    color:orange;
+}
+.tituli{
+    color:green;
+}
+img{
+    border-radius: 250px;
+}

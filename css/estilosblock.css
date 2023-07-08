@@ -1,0 +1,40 @@
+.contenedorblock{    
+    color:#ffff;
+    display: block;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.headers{   
+    margin:15px;
+    background-color: orange;    
+}
+.navs{
+    margin:15px;
+    background-color: green;    
+}
+.articles{
+    width:550px;
+    height: 250px;
+    margin:15px;
+    background-color: green;
+    color:#ffff;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}
+.asides{
+    width:550px;
+    height: 250px;
+    margin:15px;
+    background-color: blueviolet;
+    color:#ffff;
+    display: inline-block;
+    font-size: 30px;
+    text-align: center;
+    padding: 15px;
+    text-transform: uppercase;
+}

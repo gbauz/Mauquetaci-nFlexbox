@@ -50,3 +50,11 @@ header h2{
 img{
     border-radius: 250px;
 }
+.noticias___parrafo1{
+    width: 350px;
+    height: 150px;
+    background-color: blue;
+    color:white;
+    overflow: hidden;
+    overflow-y:scroll;
+}

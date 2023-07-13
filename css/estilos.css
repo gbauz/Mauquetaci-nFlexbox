@@ -58,3 +58,29 @@ img{
     overflow: hidden;
     overflow-y:scroll;
 }
+/*Psedeolementos y pseudoclases
+First Line
+Selection
+after
+before
+hover
+*/
+.noticias___parrafo1::after{
+ content:"Hola a todos";
+ background-color: blueviolet;
+ color:#fff;
+}
+.hover-boton{
+ background-color: orange;
+ text-align: center;
+ color:white;
+ font-size: 15px;
+ padding: 20px;
+ margin: 20px;
+ border-radius: 40px;
+ border: none;
+}
+
+.hover-boton:hover{
+ background-color: rgb(56, 54, 54);
+}
